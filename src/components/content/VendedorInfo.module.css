@@ -1,0 +1,21 @@
+.cardVendedor {
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.nomeNota {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nota {
+  color: grey;
+}
+
+.titContato {
+  font-style: italic;
+  font-weight: bold;
+}

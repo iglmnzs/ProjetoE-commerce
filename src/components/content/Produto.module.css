@@ -1,0 +1,37 @@
+.texto {
+  color: #000814;
+  margin: 2px;
+  padding: 2px;
+}
+
+.cabecalhoProduto {
+  composes: texto;
+  color: #000814;
+  font-size: 2em;
+}
+
+.imgProduto {
+  width: 98vw;
+  height: auto;
+}
+
+.descricaoProduto {
+  text-align: justify;
+  text-indent: 5em;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+.painelCompra {
+  display: flex;
+  justify-content: space-between;
+}
+
+.precoProduto {
+  font-size: 1.5em;
+  color: #2b9348;
+}
+
+.precoInvisivel {
+  display: none;
+}

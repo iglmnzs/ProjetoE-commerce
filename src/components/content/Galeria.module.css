@@ -1,0 +1,22 @@
+
+.imgProduto {
+  width: 98vw;
+  height: auto;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+
+.imgControl {
+  /* width: 98vw; */
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 10px 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.imgMinGaleria {
+  flex-shrink: 1;
+  width: 40px;
+  border-radius: 20%;
+}

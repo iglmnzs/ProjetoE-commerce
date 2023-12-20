@@ -1,0 +1,52 @@
+.menuNav {
+  display: flex;
+  flex-direction: column;
+  background-color: #560788;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.menuNav a:hover {
+  color: #707070;
+  cursor: pointer;
+}
+
+.expandeColapsa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.itemNav {
+  color: #fbf4f4;
+  text-align: center;
+  margin: 10px;
+  order: 1;
+}
+
+.itemNavHome {
+  font-weight: 800;
+}
+
+.itemNavToggle {
+  order: 0;
+}
+
+
+@media (min-width: 470px) {
+  .menuNav {
+    flex-direction: row;
+  }
+
+  .itemNavHome {
+    font-weight: 800;
+    flex-grow: 1;
+    text-align: left;
+  }
+
+  .itemNavToggle {
+    display: none;
+  }
+}
+

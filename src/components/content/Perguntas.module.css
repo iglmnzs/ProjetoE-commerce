@@ -1,0 +1,28 @@
+.boxPerguntas {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid lightgray;
+  font-size: 0.9em;
+}
+
+.boxNomeIcon {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+  gap: 2px;
+}
+
+.titRespVendedor {
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.boxFooter {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 0.75em;
+  color: grey;
+}
+
+
